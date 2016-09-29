@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Friend Finder</title>
+	<title>Frnd Fndr</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,13 +11,17 @@
 
 	<div class="container">
 		<div class="jumbotron">
-			<h1>Frnd Fndr</h1>
-			<h2>by Drake Smith</h2>
-			<p>Answer this survey to find your next best friend.</p>
-			<button><a href="/survey" class="survey-link">Click to Start Survey</a></button>
+			<h1 class="text-center">Frnd Fndr</h1>
+			<h2 class="text-center">by Drake Smith</h2>
+			<p class="text-center">Answer this survey to find your next best friend.</p>
 		</div>
-	
-		<div class="footer">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 text-center">
+				<a href="/survey" class="survey-link"><button type="button" class="btn btn-danger">Click to Start Survey</button></a>
+			</div>
+		</div>
+		
+		<div class="footer text-center">
 			<a href="/api/friends" id="api">API Friends List | </a>
 			<a href="https://github.com/Drake-Smith/friend-finder" id="github">GitHub Repo</a>
 		</div>
